@@ -13,6 +13,8 @@ import { Dropdown } from 'react-native-material-dropdown';
 import DateTimePicker from 'react-native-modal-datetime-picker';
 import moment from 'moment';
 
+import {Fonts} from './utils/Fonts';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -261,7 +263,8 @@ const styles = StyleSheet.create({
     color: 'steelblue',
     marginBottom: 10,
     textAlign: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontFamily: Fonts.Berthold
   },
   image: {
     width: 250,

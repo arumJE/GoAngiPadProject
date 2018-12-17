@@ -25,6 +25,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		28FCBCDAE9B144D1951F06CB /* Akzidenz-grotesk-be-bold-extended.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF15F595E9494FC8A24B9CE9 /* Akzidenz-grotesk-be-bold-extended.ttf */; };
 		2BD3FA6FC9B944EE9C862A31 /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5264FEA60EEC4889ACC93997 /* libRNVectorIcons-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -48,6 +49,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9C828B166D064A52BD1FF1A3 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AF84EBCF6A64E3E97A1E8AD /* AntDesign.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		C236159C447D4F8BA5A267EF /* Akzidenz-grotesk-be-bold-condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F23328EB610478593199565 /* Akzidenz-grotesk-be-bold-condensed.ttf */; };
 		C621F88A3A0A45F7BF3155D7 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01636E14705A473F92D5C948 /* Octicons.ttf */; };
 		CA596BA871184AB2B21F4E01 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D84E0E3B270C4A1AB85A7DA7 /* Feather.ttf */; };
 		DF74875413154BCFA7355145 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1D02F6026064BD4B389FDF3 /* MaterialCommunityIcons.ttf */; };
@@ -378,6 +380,7 @@
 		39BDFB2090E34CCC8AB8563A /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		3AF84EBCF6A64E3E97A1E8AD /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		475FC701352546CCB59B81E9 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		4F23328EB610478593199565 /* Akzidenz-grotesk-be-bold-condensed.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Akzidenz-grotesk-be-bold-condensed.ttf"; path = "../assets/fonts/Akzidenz-grotesk-be-bold-condensed.ttf"; sourceTree = "<group>"; };
 		5264FEA60EEC4889ACC93997 /* libRNVectorIcons-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNVectorIcons-tvOS.a"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		740010C2D04A416686660E87 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
@@ -389,6 +392,7 @@
 		A8034A08BCE8426DA7E5C5B3 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		BFC98F1500274EE19468809E /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		CF15F595E9494FC8A24B9CE9 /* Akzidenz-grotesk-be-bold-extended.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Akzidenz-grotesk-be-bold-extended.ttf"; path = "../assets/fonts/Akzidenz-grotesk-be-bold-extended.ttf"; sourceTree = "<group>"; };
 		D5D6F57636E64A11AC52465C /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		D84E0E3B270C4A1AB85A7DA7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		E387B7396CD948BD8696677D /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
@@ -696,6 +700,8 @@
 				01636E14705A473F92D5C948 /* Octicons.ttf */,
 				198BE41C63424BFDBC154E5E /* SimpleLineIcons.ttf */,
 				BFC98F1500274EE19468809E /* Zocial.ttf */,
+				4F23328EB610478593199565 /* Akzidenz-grotesk-be-bold-condensed.ttf */,
+				CF15F595E9494FC8A24B9CE9 /* Akzidenz-grotesk-be-bold-extended.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1180,6 +1186,8 @@
 				5AEBE914AB7B4E97B7B3CA25 /* SimpleLineIcons.ttf in Resources */,
 				E4DCD08021C3F8A100620254 /* ios in Resources */,
 				524ED6DF0F1E45978ED886F3 /* Zocial.ttf in Resources */,
+				C236159C447D4F8BA5A267EF /* Akzidenz-grotesk-be-bold-condensed.ttf in Resources */,
+				28FCBCDAE9B144D1951F06CB /* Akzidenz-grotesk-be-bold-extended.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
