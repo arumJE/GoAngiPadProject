@@ -8,7 +8,7 @@
 
 import React, {Component} from 'react';
 import { TabBarIOS, DatePickerIOS, Picker, TextInput, Image, Platform, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { Button, ButtonGroup, Icon, FormLabel, FormInput, FormValidationMessage, CheckBox } from 'react-native-elements';
+import { Overlay, Button, ButtonGroup, Icon, FormLabel, FormInput, FormValidationMessage, CheckBox } from 'react-native-elements';
 import { Dropdown } from 'react-native-material-dropdown';
 import DateTimePicker from 'react-native-modal-datetime-picker';
 import moment from 'moment';
@@ -84,9 +84,9 @@ export default class Input extends Component {
       email: this.state.email,
       zip: this.state.zip,
       dob: this.state.dob,
-      status: this.state.value4,
-      selectedIndex: this.state.selectedIndex,
-      selectedIndexTwo: this.state.selectedIndexTwo,
+      status: this.state.value,
+      militaryService: this.state.selectedIndex,
+      contactPref: this.state.selectedIndexTwo,
       }
     };
     console.log(data);
